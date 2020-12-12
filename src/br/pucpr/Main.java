@@ -7,7 +7,7 @@ import static br.pucpr.Utils2.*;
 
 public class Main {
     public static void main(String[] args) {
-        String nameImage = "spiderman";
+        String nameImage = "sonic";
         BufferedImage img1 = load("/img/cor/" + nameImage + ".jpg");
 
         BufferedImage img2 = grayscale(img1);
